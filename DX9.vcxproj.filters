@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DX9.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\BoundBox\cBoundingBox.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\BoundBox\cBoundingBoxLoader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\BoundBox\cBoundingObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\Cube\cCube.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\Spere\cSpere.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod_codec.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod_dsp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod_errors.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod_memoryinfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FMOD\inc\fmod_output.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Grid\cGrid.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Loading\Loading.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cCameraManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cDeviceManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cFontManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cItemManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cKeyManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cParticleManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cSceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cSkinnedMeshManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cSoundManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cStaticMeshManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cTextureManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cTimeManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\cUIManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MeshLoader\SkinnedMesh\cAllocateHierarchy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MeshLoader\SkinnedMesh\cSkinnedMesh.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MeshLoader\StaticMesh\cStaticMesh.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ProgressBar\ProgressBar.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Ray\cRay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shader\Shader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\cUI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\cUIButton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\cUIImageView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\cUIInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\cUIObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\cUITextView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI\ItemUI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FrameworkHeaders.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Util.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Character\NPC\NpcShop.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\cDropItem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\cItem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\cItemBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\cItemInfo.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Map\Object\House.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Map\FieldMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Map\iMap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Monster\Beast\Beast.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Monster\GateKeeper\GateKeeper.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Monster\Kelsaik\Kelsaik.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Monster\MonsterBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\EditScene\ParticleEdit.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\GameScene\scBossRoom.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\GameScene\scBossRoomLoading.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\GameScene\scField.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\GameScene\scFieldLoading.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\GameScene\scMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Scene\Scenes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\cGameObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\MainGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\ObjectManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Portal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Path.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Character\Player\Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Character\cCharacterCtrl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Character\cCharacter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\Weapon\TwoHandClaymore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\Weapon\TwohandFish.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\Weapon\TwohandIce.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Item\Weapon\TwohandSky.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Map\BossRoom\cBossRoom_Doll.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Map\BossRoom\cBossRoom_Road.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\Map\BossRoom\cBossRoom_Wall.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\BoundBox\cBoundingBox.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\BoundBox\cBoundingBoxLoader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\BoundBox\cBoundingObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\Cube\cCube.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\Spere\cSpere.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Grid\cGrid.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Loading\Loading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cCameraManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cDeviceManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cFontManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cItemManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cKeyManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cParticleManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cSceneManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cSkinnedMeshManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cSoundManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cStaticMeshManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cTextureManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cTimeManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\cUIManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MeshLoader\SkinnedMesh\cAllocateHierarchy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MeshLoader\SkinnedMesh\cSkinnedMesh.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MeshLoader\StaticMesh\cStaticMesh.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ProgressBar\ProgressBar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Ray\cRay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shader\Shader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\CreateUIList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\cUI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\cUIButton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\cUIImageView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\cUIInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\cUIObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\cUITextView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UI\TextList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Character\NPC\NpcShop.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\cDropItem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\cItem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\cItemBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\cItemInfo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\CreateItemList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Map\Object\House.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Map\FieldMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Map\iMap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Monster\Beast\Beast.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Monster\GateKeeper\GateKeeper.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Monster\Kelsaik\Kelsaik.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Monster\MonsterBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Scene\EditScene\ParticleEdit.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Scene\GameScene\scBossRoom.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Scene\GameScene\scBossRoomLoading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Scene\GameScene\scField.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Scene\GameScene\scFieldLoading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Scene\GameScene\scMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\cGameObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\MainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\ObjectManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Portal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Character\Player\Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Character\cCharacter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Character\cCharacterCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\Weapon\TwoHandClaymore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\Weapon\TwohandFish.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\Weapon\TwohandIce.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Item\Weapon\TwohandSky.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Map\BossRoom\cBossRoom_Doll.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Map\BossRoom\cBossRoom_Road.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\Map\BossRoom\cBossRoom_Wall.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX9.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DX9.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Resource\XFile\Character\poporiClass03\Head\Popori_F_Face00_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Head\Popori_F_Face01_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Head\Popori_F_Face07_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Head\popori_F_hair00_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_Face00_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_Face00_norm.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_Face00_spec.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\popori_F_hair00_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\popori_F_hair00_norm.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\popori_F_hair00_spec.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Body_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Body_norm.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Body_spec.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Hand_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Hand_norm.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Hand_spec.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Leg_diff.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Leg_norm.tga" />
+    <Image Include="Resource\XFile\Character\poporiClass03\Popori_F_L19_Leg_spec.tga" />
+    <Image Include="Resource\XFile\NPC\Popori_M_Face09_diff.tga" />
+    <Image Include="Resource\XFile\NPC\Popori_M_L09_Body_diff.tga" />
+    <Image Include="Resource\XFile\NPC\Popori_M_L17_Hand_diff.tga" />
+    <Image Include="Resource\XFile\NPC\Popori_M_L17_Leg_diff.tga" />
+    <Image Include="Resource\XFile\NPC\Popori_M_Tail00_diff.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\XFile\Character\poporiClass03\Head\Face00.X" />
+    <None Include="Resource\XFile\Character\poporiClass03\Head\Face01.X" />
+    <None Include="Resource\XFile\Character\poporiClass03\Head\Face02.X" />
+    <None Include="Resource\XFile\Character\poporiClass03\Head\Hair01.X" />
+    <None Include="Resource\XFile\Character\poporiClass03\poporiClass03.X" />
+    <None Include="Resource\XFile\Character\poporiClass03\poporiClass03_2.X" />
+    <None Include="Resource\Sound\BGM\Ambience_Field26.ogg" />
+    <None Include="Resource\Sound\BGM\Boss_Battle.ogg" />
+    <None Include="Resource\XFile\NPC\Poalong.X" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resource\Sound\BGM\Ambience_Field26.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resource\Font\BMJUA_ttf.ttf" />
+    <Font Include="Resource\Font\GA.ttf" />
+  </ItemGroup>
+</Project>
